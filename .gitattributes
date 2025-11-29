@@ -1,2 +1,18 @@
-Ignore all TypeScript files,*.ts linguist-language=
-Classify as JavaScript (if appropriate),*.ts linguist-language=JavaScript
+# 1. Ignore common configuration files that inflate the language count.
+# This prevents tools/config files from contributing to language percentages.
+*.config.js  linguist-language=
+*.json       linguist-language=
+*.lock       linguist-language=
+
+# 2. Treat TypeScript configuration files as documentation, not code.
+# This keeps the files in the repo but tells GitHub's Linguist to ignore them
+# for the language bar calculation.
+*.config.ts  linguist-language=
+*.d.ts       linguist-language=
+
+# 3. Specifically ignore the tsconfig files
+# Since these are configuration only, they shouldn't count toward the code base.
+tsconfig.* linguist-language=
+
+# 4. If you decide the entire /project folder is mostly dependencies, you can exclude it:
+# /project/** linguist-language=
