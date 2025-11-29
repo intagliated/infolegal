@@ -11,6 +11,6 @@ Multiple Legal Documents were outsourced from [IndiaKanoon](https://indiankanoon
 Experimented with multiple strategies and different LLM's to create infographics like timeline, key arguments and citations for legal cases.<br><br>
 Trial Prototypes were built in [bolt](https://bolt.new) which can be accessed [here](https://infolegal.netlify.app/)<br>
 
-Links to the files can be found [here](https://drive.google.com/drive/folders/1FJgupNEimahScoLIu5nJcXnbPPQTEgoc?usp=sharing)
+Project files can be found [here](https://drive.google.com/drive/folders/1FJgupNEimahScoLIu5nJcXnbPPQTEgoc?usp=sharing)
 
 
