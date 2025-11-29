@@ -1,0 +1,2 @@
+Ignore all TypeScript files,*.ts linguist-language=
+Classify as JavaScript (if appropriate),*.ts linguist-language=JavaScript
